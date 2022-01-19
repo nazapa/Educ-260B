@@ -1,0 +1,50 @@
+```{r setup, include = F}
+---
+title: "Educ 260B - Problem Set 2"
+author: "Paula Nazario"
+pdf_document:
+  keep_text: TRUE
+bibliography: references.bib
+csl: asm.csl
+---
+
+knitr::opts_chunk$set(echo = F, warning = F, message = F, out.width = '75%', fig.align = 'center')
+
+## Part III: RMarkdown report and citations
+## Question 1
+## Load libraries
+install.packages("tidyverse")
+library(tidyverse)
+install.packages("scales")
+library(scales)
+install.packages("knitr")
+library(knitr)
+install.packages("kableExtra")
+library(kableExtra)
+
+## Directory paths
+getwd()
+data_dir <- file.path('.','analysis', 'files')
+data_dir
+## `input_data_dir`: path to `data/` folder
+input_data_dir <- file.path('.','data') 
+input_data_dir
+## `output_file_dir`: path to `files/` folder
+output_file_dir <- file.path('.','analysis', 'files') 
+output_file_dir
+```
+
+
+# About the data
+## source: https://www.kaggle.com/camnugent/california-housing-prices 
+According to the California housing prices data, it seems that 44% of 1H Ocean,
+32% of the Inland area, and 24% of Other are close to the ocean. In terms of median housing
+value, it seems that most people live in housing units that range between 15K and 500K. Also, 
+it seems that the average housing median age is 28.6 and the average median income is 3.87K. 
+
+# Data analysis
+
+
+
+# References
+
